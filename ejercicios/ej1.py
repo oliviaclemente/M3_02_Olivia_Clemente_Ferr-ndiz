@@ -3,5 +3,7 @@ def error(x,y):
     x/y
    except ZeroDivisionError:
      print("Imposible")
-  
+     sys.exit()
+     
+    
      
