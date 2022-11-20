@@ -4,4 +4,6 @@ def error(*args):
     try:
       resultado=+numero 
       print(resultado)
-    
+    except:
+      print("Imposible")
+print(error("2",10))
