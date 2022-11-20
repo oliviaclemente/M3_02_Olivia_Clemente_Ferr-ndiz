@@ -1,9 +1,9 @@
 def error(x,y):
   try:
     x/y
-   except ZeroDivisionError:
+  except:
      print("Imposible")
-     sys.exit()
-     
+
+print(error(7,0))
     
      
